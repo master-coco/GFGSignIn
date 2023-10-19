@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif; 
+    background-color: black;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.form-container, .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 30px; 
+    color: #333333;
+}
+
+.form-container {
+    max-width: 750px;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.form-outline {
+    background-color: white;
+    padding: 15px; 
+    border: 1px solid white;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.input-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.bars {
+    display: flex;
+    align-items: center;
+}
+
+.bar1 {
+    border: 1px solid #b6b6b6;
+    width: 100%;
+    text-align: center;
+    border-top: 4px solid #0f9d58;
+    border-radius: 5px;
+}
+
+.bar2 {
+    border-radius: 5px;
+    background-color: #c9c9c9;
+    width: 100%;
+    text-align: center;
+    color: #333333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.field {
+    max-width: 400px;
+    width: 100%;
+    height: 45px; 
+    border-radius: 5px;
+    padding: 0 25px; 
+    font-size: 16px; 
+}
+
+.remember-mememe {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.signin {
+    width: 70%;
+    background-color: #0f9d58;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px; 
+    padding: 12px 0; 
+}
+
+.divider {
+    display: flex;
+    width: 70%;
+}
+
+.social {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+
+.social button {
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px; 
+    padding: 12px 0; 
+    width: 200px;
+    cursor: pointer;
+}
+
+form p {
+    color: green;
+    font-weight: bold;
+}
